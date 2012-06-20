@@ -1,0 +1,12 @@
+BayeSAPE - Bayesian Spectrum Analysis and Parameter Estimation
+
+This repository will implement simple Bayesian spectrum analysis and
+analysis code as described in
+
+"Bayesian Spectrum Analysis and Parameter Estimation" (Lecture Notes in
+Statistics, Springer-Verlag), 1998
+
+G. Larry Bretthorst
+
+A PDF copy of this book is available at
+http://bayes.wustl.edu/glb/book.pdf .
