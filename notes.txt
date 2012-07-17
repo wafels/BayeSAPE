@@ -1,0 +1,8 @@
+17 July 2012
+------------
+
+Perhaps a good place to start would be Ch. 3 of the Bretthorst book so
+we can start with a general system that does not rely on the
+assumptions required in Ch. 2.  See also
+http://www.biomedcentral.com/1752-0509/5/97 for a method of estimating
+the background trend as well as the periodicities present.
