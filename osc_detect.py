@@ -119,15 +119,13 @@ class BTS():
 
     def _schuster(self):
         """Return the Schuster periodogram"""
-        
-        return cw
+        cw=[]
+        for omega in self.angular_frequencies:
+            z = np.exp(i*omega*self.time)
+            zz = self.data*z
+            cw.append[(1.0/self.nmap)*np.abs(np.sum(zz,axis=-1))]
+        return np.array(cw)
 
-    def _known_white_noise(self, white_noise):
-        pass
-        return
-    
-    def _unknown_noise(self):
-        pass
     
     def detect_regions(self, **kwargs):
         """Detect oscillating regions using the Ireland et al 2010 algorithm.
